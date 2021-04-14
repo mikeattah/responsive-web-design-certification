@@ -1,0 +1,1 @@
+﻿This is a tribute page for Steve Jobs as Free Code Camp Project for Responsive Web Design Certification.
