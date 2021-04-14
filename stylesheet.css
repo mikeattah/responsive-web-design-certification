@@ -1,0 +1,384 @@
+﻿@media screen and (min-width: 1200px) {
+  #main {
+    background-color: #dcdcdc;
+    font-size: 100%;
+  }
+  #title {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #para1 {
+    text-align: center;
+    font-size: 1vw;
+  }
+  #img-div {
+    background-color: white;
+    border-radius: 15px;
+  }
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 1em;
+  }
+  #para2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #tribute-info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #blocks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #tribute-link {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 10px;
+  }
+  .textstyle1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .textstyle2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+  }
+  .columnside {
+    width: 25%;
+  }
+  .columnmid {
+    width: 50%;
+  }
+  .columnmid2 {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* No Change */
+  #main {
+    background-color: #dcdcdc;
+    font-size: 100%;
+  }
+  #title {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #para1 {
+    text-align: center;
+    font-size: 1vw;
+  }
+  #img-div {
+    background-color: white;
+    border-radius: 15px;
+  }
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 1em;
+  }
+  #para2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #tribute-info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #blocks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #tribute-link {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 10px;
+  }
+  .textstyle1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .textstyle2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+  }
+  .columnside {
+    width: 25%;
+  }
+  .columnmid {
+    width: 50%;
+  }
+  .columnmid2 {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Completed */
+  #main {
+    background-color: #dcdcdc;
+    font-size: 100%;
+  }
+  #title {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #para1 {
+    text-align: center;
+    font-size: 1vw;
+  }
+  #img-div {
+    background-color: white;
+    border-radius: 15px;
+  }
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 1em;
+  }
+  #para2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #tribute-info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #blocks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #tribute-link {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 10px;
+  }
+  .textstyle1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .textstyle2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+  }
+  .columnside {
+    width: 25%;
+  }
+  .columnmid {
+    width: 50%;
+  }
+  .columnmid2 {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 576px) {
+  /* Completed */
+  #main {
+    background-color: #dcdcdc;
+    font-size: 100%;
+  }
+  #title {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #para1 {
+    text-align: center;
+    font-size: 1vw;
+  }
+  #img-div {
+    background-color: white;
+    border-radius: 15px;
+  }
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 0.85em;
+  }
+  #para2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #tribute-info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #blocks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #tribute-link {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 10px;
+  }
+  .textstyle1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .textstyle2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+  }
+  .columnside {
+    width: 25%;
+  }
+  .columnmid {
+    width: 50%;
+  }
+  .columnmid2 {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* Completed */
+  #main {
+    background-color: #dcdcdc;
+    font-size: 100%;
+  }
+  #title {
+    text-align: center;
+    font-size: 8vw;
+  }
+  #para1 {
+    text-align: center;
+    font-size: 2vw;
+  }
+  #img-div {
+    background-color: white;
+    border-radius: 15px;
+  }
+  #image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+    font-size: 0.65em;
+  }
+  #para2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  #tribute-info{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #para4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #blocks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  #tribute-link {
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 10px;
+  }
+  .textstyle1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  .textstyle2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column {
+    float: left;
+  }
+  .columnside {
+    width: 10%;
+  }
+  .columnmid {
+    width: 80%;
+  }
+  .columnmid2 {
+    width: 60%;
+  }
+}
