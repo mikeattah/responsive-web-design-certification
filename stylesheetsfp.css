@@ -1,0 +1,29 @@
+﻿@media screen and (min-width: 1200px) {
+  #main {
+    background-color: #6a5acd;
+  }
+  #title {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2.5em;
+    padding: 0px;
+  }
+  #description {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #f5fffa;
+    font-size: 1.5em;
+  }
+  #survey-form {
+    background-color: 191970;
+    font-family: Helvetica, sans-serif;
+    border: 1px;
+  }
+  .columnmid {
+    width: 50%
+  }
+  .columnside {
+    width: 25%
+  }
+}
