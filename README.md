@@ -1,10 +1,8 @@
-﻿This is a tribute page for Steve Jobs as Free Code Camp Project for Responsive Web Design Certification.
-
-CORRECTION!!
-
-This repo will also include other web pages related to the RWD Certification.
+﻿# rwdcertification
+Responsive Web Design Certification
 
 The pages included are:
 
-Tribute Page
-Survey Form Page
+1 Tribute Page
+2 Survey Form Page
+3 Product Landing Page

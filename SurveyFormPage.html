@@ -5,24 +5,24 @@
 
 <title>Tribute Page</title>
 
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="keywords" content="Tribute Page"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Tribute Page">
 
-<base/>
+<base>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- Don't remove/change link below -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <!-- Google Icons -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <!-- Font Awesome 4 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Review the link below: -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <!-- CSS stylesheet -->
-<link rel="stylesheet" href="stylesheetsfp.css"/>
+<link rel="stylesheet" href="stylesheetsfp.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -33,24 +33,87 @@
 <!-- Your personal font awesome 5 kit: -->
 <script src="https://kit.fontawesome.com/ddc4c3e78e.js" crossorigin="anonymous"></script>
 
+<link rel="stylesheet" href="./stylesheetsfp.css">
+
 <style>
 
 </style>
 
-<object/>
+<object>
 
 <!-- General Comments. Home Page -->
 
 </head>
 
 <body id="main">
+  <br>
   <h1 id="title">freeCodeCamp Survey Form</h1>
-  <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
-  <form id="survey-form">
-    <label>Name<br><input></input><br>
-    <label>Email<br><input></input><br>
-    <label>Age (optional)<br><input></input><br>
-    <label>Which option best describes your current role?<br><input></input><br><br>
+  <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p><br>
+  
+  <div id="formdiv">
+  <form id="survey-form" action="#">
+    <label for="name" id="name-label" class="label-text">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
     
+    <label for="email" id="email-label" class="label-text">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+    
+    <label for="number" id="number-label" class="label-text">Age <small>(optional)</small></label>
+    <input type="number" id="number" name="number" placeholder="Age" min="18" max="65">
+    
+    <label for="dropdown" class="label-text">Which option best describes your current role?</label>
+    <select id="dropdown" name="role">
+      <option selected="true" disabled="disabled" value="select current role">Select current role</option>
+      <option value="student">Student</option>
+      <option value="full time job">Full Time Job</option>
+      <option value="full time learner">Full Time Learner</option>
+      <option value="prefer not to say">Prefer not to say</option>
+      <option value="other">Other</option>
+    </select>
+    
+    <div class="label-text">Would you recommend freeCodeCamp to a friend?<br>
+    <label for="definitely" class="label-text"><input type="radio" id="definitely" name="recommend" value="definitely" checked="checked"> Definitely</label><br>
+    <label for="maybe" class="label-text"><input type="radio" id="maybe" name="recommend" value="maybe"> Maybe</label><br>
+    <label for="not-sure" class="label-text"><input type="radio" id="not-sure" name="recommend" value="not sure"> Not Sure</label>
+    </div><br>
+    
+    <label for="features" class="label-text">What is your favorite feature of freeCodeCamp?</label>
+    <select id="features" name="features">
+      <option selected="true" disabled="disabled" value="select an option">Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open source">Open Source</option>
+    </select>
+    
+    <div class="label-text">What would you like to see improved? <small>(check all that apply)</small><br>
+    <input type="checkbox" id="feprojects" name="feprojects" value="front-end projects">
+    <label for="feprojects" class="label-text">Front-End Projects</label><br>
+    <input type="checkbox" id="beprojects" name="beprojects" value="back-end projects">
+    <label for="beprojects" class="label-text">Back-End Projects</label><br>
+    <input type="checkbox" id="dvisual" name="dvisual" value="data visualization">
+    <label for="dvisual" class="label-text">Data Visualization</label><br>
+    <input type="checkbox" id="challenges" name="challenges" value="challenges">
+    <label for="challenges" class="label-text">Challenges</label><br>
+    <input type="checkbox" id="oscomm" name="oscomm" value="open source community">
+    <label for="oscomm" class="label-text">Open Source Community</label><br>
+    <input type="checkbox" id="ghrooms" name="ghrooms" value="gitter help rooms">
+    <label for="ghrooms" class="label-text">Gitter help rooms</label><br>
+    <input type="checkbox" id="videos" name="videos" value="videos">
+    <label for="videos" class="label-text">Videos</label><br>
+    <input type="checkbox" id="cmeetups" name="cmeetups" value="city meetups">
+    <label for="cmeetups" class="label-text">City Meetups</label><br>
+    <input type="checkbox" id="wiki" name="wiki" value="wiki">
+    <label for="wiki" class="label-text">Wiki</label><br>
+    <input type="checkbox" id="forum" name="forum" value="forum">
+    <label for="forum" class="label-text">Forum</label><br>
+    <input type="checkbox" id="acourses" name="acourses" value="additional courses">
+    <label for="acourses" class="label-text">Additional Courses</label>
+    </div><br>
+    
+    <p id="comment" class="label-text">Any comments or suggestions?</p>
+    <textarea id="message" placeholder="Enter your comments here.." cols="80" rows="8" required></textarea><br><br>
+    <input type="submit" value="Submit">
   </form>
+  </div>
 </body>
