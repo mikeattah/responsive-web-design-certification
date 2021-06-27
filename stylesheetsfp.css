@@ -1,6 +1,10 @@
 ﻿@media screen and (min-width: 1200px) {
   #main {
-    background-image: linear-gradient(to bottom right, rgba(72,61,139,1), rgba(72,61,139,0.75));
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(72, 61, 139, 1),
+      rgba(72, 61, 139, 0.75)
+    );
     padding-bottom: 20px;
   }
   #title {
@@ -9,7 +13,7 @@
     color: #fff;
     font-size: 2.5em;
     padding: 0px 0px 25px 0px;
-    line-height: 0.50;
+    line-height: 0.5;
   }
   #description {
     text-align: center;
@@ -32,7 +36,10 @@
     border: 1px;
     padding: 60px 30px;
   }
-  input[type=text], input[type=email], input[type=number], select {
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
     padding: 10px;
     width: 100%;
     margin: 8px 0 32px 0;
@@ -41,7 +48,7 @@
     border-radius: 4px;
     box-sizing: border-box;
   }
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     background-color: #3cb371;
     color: white;
@@ -50,12 +57,13 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.10em;
+    font-size: 1.1em;
   }
-  input[type=submit]:hover {
+  input[type="submit"]:hover {
     background-color: #2e8b57;
   }
-  input[type="radio"], input[type=checkbox] {
+  input[type="radio"],
+  input[type="checkbox"] {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -73,23 +81,27 @@
     box-sizing: border-box;
   }
   .columnmid {
-    width: 50%
+    width: 50%;
   }
   .columnside {
-    width: 25%
+    width: 25%;
   }
-  .label-text{
-  color: white;
-  font-size: 1.10em;
-  padding: 0px;
+  .label-text {
+    color: white;
+    font-size: 1.1em;
+    padding: 0px;
   }
   .radiobot {
-  margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
   }
 }
 @media screen and (min-width: 992px) {
   #main {
-    background-image: linear-gradient(to bottom right, rgba(72,61,139,1), rgba(72,61,139,0.75));
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(72, 61, 139, 1),
+      rgba(72, 61, 139, 0.75)
+    );
     padding-bottom: 20px;
   }
   #title {
@@ -98,7 +110,7 @@
     color: #fff;
     font-size: 2.5em;
     padding: 0px 0px 15px 0px;
-    line-height: 0.50;
+    line-height: 0.5;
   }
   #description {
     text-align: center;
@@ -121,7 +133,10 @@
     border: 1px;
     padding: 60px 30px;
   }
-  input[type=text], input[type=email], input[type=number], select {
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
     padding: 10px;
     width: 100%;
     margin: 8px 0 32px 0;
@@ -130,7 +145,7 @@
     border-radius: 4px;
     box-sizing: border-box;
   }
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     background-color: #3cb371;
     color: white;
@@ -139,12 +154,13 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.10em;
+    font-size: 1.1em;
   }
-  input[type=submit]:hover {
+  input[type="submit"]:hover {
     background-color: #2e8b57;
   }
-  input[type="radio"], input[type=checkbox] {
+  input[type="radio"],
+  input[type="checkbox"] {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -162,23 +178,27 @@
     box-sizing: border-box;
   }
   .columnmid {
-    width: 50%
+    width: 50%;
   }
   .columnside {
-    width: 25%
+    width: 25%;
   }
-  .label-text{
-  color: white;
-  font-size: 1.10em;
-  padding: 0px;
+  .label-text {
+    color: white;
+    font-size: 1.1em;
+    padding: 0px;
   }
   .radiobot {
-  margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
   }
 }
 @media screen and (max-width: 576px) {
   #main {
-    background-image: linear-gradient(to bottom right, rgba(72,61,139,1), rgba(72,61,139,0.75));
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(72, 61, 139, 1),
+      rgba(72, 61, 139, 0.75)
+    );
     padding-bottom: 20px;
   }
   #title {
@@ -187,7 +207,7 @@
     color: #fff;
     font-size: 1.5em;
     padding: 0px;
-    line-height: 0.50;
+    line-height: 0.5;
   }
   #description {
     text-align: center;
@@ -212,7 +232,10 @@
     border: 1px;
     padding: 60px 30px;
   }
-  input[type=text], input[type=email], input[type=number], select {
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
     padding: 10px;
     width: 100%;
     margin: 8px 0 32px 0;
@@ -221,7 +244,7 @@
     border-radius: 4px;
     box-sizing: border-box;
   }
-  input[type=submit] {
+  input[type="submit"] {
     width: 100%;
     background-color: #3cb371;
     color: white;
@@ -230,12 +253,13 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.10em;
+    font-size: 1.1em;
   }
-  input[type=submit]:hover {
+  input[type="submit"]:hover {
     background-color: #2e8b57;
   }
-  input[type="radio"], input[type=checkbox] {
+  input[type="radio"],
+  input[type="checkbox"] {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -253,17 +277,17 @@
     box-sizing: border-box;
   }
   .columnmid {
-    width: 50%
+    width: 50%;
   }
   .columnside {
-    width: 25%
+    width: 25%;
   }
-  .label-text{
-  color: white;
-  font-size: 1.10em;
-  padding: 0px;
+  .label-text {
+    color: white;
+    font-size: 1.1em;
+    padding: 0px;
   }
   .radiobot {
-  margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
   }
 }

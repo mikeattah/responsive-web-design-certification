@@ -1,8 +1,11 @@
 ﻿# rwdcertification
-Responsive Web Design Certification
 
-The pages included are:
+FCC Responsive Web Design Certification
 
-1 Tribute Page
-2 Survey Form Page
-3 Product Landing Page
+# The pages included are:
+
+- Tribute Page
+- Survey Form Page
+- Product Landing Page
+- Technical Documentation Page
+- Pls see mikeattahweb repo for porfolio website

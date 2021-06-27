@@ -53,7 +53,7 @@
   <div id="formdiv">
   <form id="survey-form" action="#">
     <label for="name" id="name-label" class="label-text">Name</label><br>
-    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
     
     <label for="email" id="email-label" class="label-text">Email</label>
     <input type="email" id="email" name="email" placeholder="Enter your Email" required>
@@ -113,7 +113,9 @@
     
     <p id="comment" class="label-text">Any comments or suggestions?</p>
     <textarea id="message" placeholder="Enter your comments here.." cols="80" rows="8" required></textarea><br><br>
-    <input type="submit" value="Submit">
+    <input type="submit" id="submit" value="Submit">
   </form>
   </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+</html>

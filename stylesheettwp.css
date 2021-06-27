@@ -19,7 +19,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   #img-caption {
@@ -30,7 +30,7 @@
     text-align: center;
     font-weight: bold;
   }
-  #tribute-info{
+  #tribute-info {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -49,7 +49,7 @@
     margin-right: auto;
     text-align: justify;
   }
-  #tribute-link {
+  #tribute-footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   #img-caption {
@@ -107,7 +107,7 @@
     text-align: center;
     font-weight: bold;
   }
-  #tribute-info{
+  #tribute-info {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -126,7 +126,7 @@
     margin-right: auto;
     text-align: justify;
   }
-  #tribute-link {
+  #tribute-footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 10px;
@@ -173,7 +173,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   #img-caption {
@@ -184,7 +184,7 @@
     text-align: center;
     font-weight: bold;
   }
-  #tribute-info{
+  #tribute-info {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -203,7 +203,7 @@
     margin-right: auto;
     text-align: justify;
   }
-  #tribute-link {
+  #tribute-footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 10px;
@@ -250,7 +250,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   #img-caption {
@@ -261,7 +261,7 @@
     text-align: center;
     font-weight: bold;
   }
-  #tribute-info{
+  #tribute-info {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -280,7 +280,7 @@
     margin-right: auto;
     text-align: justify;
   }
-  #tribute-link {
+  #tribute-footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 10px;
@@ -327,7 +327,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 100%;
     height: auto;
   }
   #img-caption {
@@ -338,7 +338,7 @@
     text-align: center;
     font-weight: bold;
   }
-  #tribute-info{
+  #tribute-info {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -357,7 +357,7 @@
     margin-right: auto;
     text-align: justify;
   }
-  #tribute-link {
+  #tribute-footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 10px;
