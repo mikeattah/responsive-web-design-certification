@@ -8,4 +8,4 @@ FCC Responsive Web Design Certification
 - Survey Form Page
 - Product Landing Page
 - Technical Documentation Page
-- Pls see mikeattahweb repo for porfolio website
+- Personal Portfolio Page

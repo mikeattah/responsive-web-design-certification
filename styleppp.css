@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: auto;
+  font-family: roboto, "open Sans", sans-serif;
+}
+@media screen and (min-width: 1200px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .navgroup {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .navlink {
+    display: block;
+    text-decoration: none;
+    color: #eeeade;
+    text-align: center;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  .navlink:hover {
+    color: black;
+    background-color: white;
+  }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #111111;
+    background-image: url("./images/pexels-kelly-lacy-4171932-m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+  .param {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Montserrat, "open Sans", sans-serif;
+    color: #b22222;
+  }
+  #projects {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #483d8b;
+  }
+  .project-heading {
+    display: block;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 1.8rem;
+  }
+  .all-proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    height: 76%;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 28%;
+    height: 100%;
+  }
+  .proj-link {
+    display: block;
+    width: 100%;
+    height: 87%;
+    margin: 0;
+    border: 0;
+  }
+  .proj-img {
+    object-fit: contain;
+    height: 100%;
+  }
+  .proj-title {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    height: 13%;
+    text-align: center;
+    background-color: #111111;
+    color: white;
+  }
+  .show-all-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+  }
+  .show-all-link {
+    display: block;
+    text-decoration: none;
+    width: 8%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+  .show-all-link:hover {
+    cursor: pointer;
+    background-color: #b22222;
+    border: 1px solid #b22222;
+    width: 8.5%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 60px;
+    background-color: #f4e1d2;
+  }
+  .work-together {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40%;
+  }
+  h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    width: 65%;
+    height: 20%;
+    font-size: 1.75rem;
+  }
+  .social-pages {
+    text-decoration: none;
+    color: black;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 5%;
+    border-top: 5px solid #b22222;
+  }
+  .footnote {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 900px) {
+}
+@media screen and (min-width: 600px) {
+}
+@media screen and (max-width: 600px) {
+}
