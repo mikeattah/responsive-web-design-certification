@@ -1,0 +1,642 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, "Open Sans", sans-serif;
+  transition: all 0.4s;
+}
+@media (min-width: 1200px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .navgroup {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 25%;
+  }
+  .navlink {
+    display: block;
+    text-decoration: none;
+    color: #eeeade;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    width: 50%;
+  }
+  .navlink:hover {
+    color: black;
+    background-color: white;
+  }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #111111;
+    background-image: url("./images/pexels-kelly-lacy-4171932-m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+  .param {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Montserrat, "open Sans", sans-serif;
+    color: #b22222;
+    padding-top: 0;
+  }
+  #projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #483d8b;
+  }
+  .project-heading {
+    display: block;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-size: 1.8rem;
+  }
+  .all-proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    height: 76%;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 28%;
+    height: 100%;
+    background-color: #111111;
+    transition: all 0.4s;
+  }
+  .proj-img {
+    width:  100%;
+    height: 88%;
+  }
+  .proj-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+  }
+  .project-tile span {
+    margin:  0 10px;
+  }
+  .project-tile i {
+    color: #b22222;
+    display: none;
+  }
+  .project-tile:hover i {
+    display: inline-block;
+  }
+  .show-all-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+  }
+  .show-all-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    height: 50%;
+    width: 8%;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+  }
+  .show-all-link:hover {
+    cursor: pointer;
+    background-color: #b22222;
+    border: 1px solid #b22222;
+    width: 9%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #696969;
+  }
+  .work-together {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 65%;
+    height: 40%;
+    font-size: 1.75rem;
+    margin: 0;
+    padding: 0;
+  }
+  .social-pages {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+  }
+  .social-pages:hover {
+    padding-top: 20px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+    border-top: 5px solid #b22222;
+    margin: 0;
+    padding: 0;
+  }
+  .footnote {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0 10px 0 0;
+  }
+}
+@media (max-width: 1200px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .navgroup {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 45%;
+  }
+  .navlink {
+    display: block;
+    text-decoration: none;
+    color: #eeeade;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    width: 50%;
+  }
+  .navlink:hover {
+    color: black;
+    background-color: white;
+  }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #111111;
+    background-image: url("./images/pexels-kelly-lacy-4171932-m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+  .param {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Montserrat, "open Sans", sans-serif;
+    color: #b22222;
+    padding-top: 0;
+  }
+  #projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #483d8b;
+  }
+  .project-heading {
+    display: block;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    padding-top: 55px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .all-proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    height: 76%;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 46%;
+    height: 100%;
+    background-color: #111111;
+    transition: all 0.4s;
+  }
+  .proj-img {
+    width:  100%;
+    height: 88%;
+  }
+  .proj-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+  }
+  .project-tile span {
+    margin:  0 10px;
+  }
+  .project-tile i {
+    color: #b22222;
+    display: none;
+  }
+  .project-tile:hover i {
+    display: inline-block;
+  }
+  .tablet {
+    display: none;
+  }
+  .show-all-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+  }
+  .show-all-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    height: 50%;
+    width: 18%;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+  }
+  .show-all-link:hover {
+    cursor: pointer;
+    background-color: #b22222;
+    border: 1px solid #b22222;
+    width: 20%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #696969;
+  }
+  .work-together {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+    height: 40%;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+  .social-pages {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+  }
+  .social-pages:hover {
+    padding-top: 15px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+    border-top: 5px solid #b22222;
+    margin: 0;
+    padding: 0;
+  }
+  .footnote {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0 10px 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .navgroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .navlink {
+    text-decoration: none;
+    color: #eeeade;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 25%;
+  }
+  .navlink:hover {
+    color: black;
+    background-color: white;
+  }
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #111111;
+    background-image: url("./images/pexels-kelly-lacy-4171932-m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  .param {
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Montserrat, "open Sans", sans-serif;
+    color: #b22222;
+    padding: 0;
+    margin: 0;
+  }
+  #projects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #483d8b;
+  }
+  .project-heading {
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 1rem;
+  }
+  .all-proj-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76%;
+  }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 90%;
+    height: 100%;
+    background-color: #111111;
+    transition: all 0.4s;
+  }
+  .proj-img {
+    width:  100%;
+    height: 88%;
+  }
+  .proj-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+  }
+  .project-tile span {
+    margin:  0 10px;
+  }
+  .project-tile i {
+    color: #b22222;
+    display: none;
+  }
+  .project-tile:hover i {
+    display: inline-block;
+  }
+  .mobile {
+    display: none;
+  }
+  .show-all-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12%;
+  }
+  .show-all-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    height: 70%;
+    width: 30%;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.4s;
+  }
+  .show-all-link:hover {
+    cursor: pointer;
+    background-color: #b22222;
+    border: 1px solid #b22222;
+    width: 20%;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    background-color: #696969;
+  }
+  .work-together {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+    padding-bottom: 5px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 15%;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  .social-pages {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+  }
+  .social-pages:hover {
+    padding-top: 10px;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+    border-top: 4px solid #b22222;
+    margin: 0;
+    padding: 0;
+  }
+  .footnote {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 10px 0 0;
+  }
+}

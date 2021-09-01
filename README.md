@@ -1,11 +1,10 @@
-﻿# rwdcertification
+﻿# FCC Responsive Web Design Projects
 
-FCC Responsive Web Design Certification
+## Responsive Web Design Certification
 
-# The pages included are:
-
-- Tribute Page
-- Survey Form Page
-- Product Landing Page
-- Technical Documentation Page
-- Personal Portfolio Page
+You can view them on Code Pen:
+- [Tribute Page](https://codepen.io/mikeattah/pen/WNRMgRE)
+- [Survey Form Page](https://codepen.io/mikeattah/pen/yLgjbLE)
+- [Product Landing Page](https://codepen.io/mikeattah/pen/dyNgNZY)
+- [Technical Documentation Page](https://codepen.io/mikeattah/pen/rNyWPJG)
+- [Personal Portfolio Page](https://codepen.io/mikeattah/pen/BaWRPzX)
